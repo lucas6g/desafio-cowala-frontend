@@ -3,7 +3,7 @@
 </h1>
 
 <ul>
-  <li>Link para a versão em staging da aplicação, <a target="_blank" href="https://cowalachalange.netlify.app">clique aqui</a>.</li>
+  <li>Link para a versão em staging da aplicação, <a href="https://cowalachalange.netlify.app" target="_blank">clique aqui</a>.</li>
 </ul>
 
 ## :computer: Tecnologias
