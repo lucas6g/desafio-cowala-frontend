@@ -2,6 +2,10 @@
   Desafio Cowala Frontend
 </h1>
 
+<ul>
+  <li>Link para a versão em staging da aplicação, <a href="https://cowalachalange.netlify.app">clique aqui</a>.</li>
+</ul>
+
 ## :computer: Tecnologias
 
 Além das tecnologias abaixo, esta aplicação foi desenvolvida com as melhores práticas de desenvolvimento!
@@ -15,6 +19,7 @@ Além das tecnologias abaixo, esta aplicação foi desenvolvida com as melhores 
 - [Yup](https://github.com/jquense/yup)
 - [Styled-Components](styled-components)
 - [Typescript](https://www.typescriptlang.org/)
+
 
 
 ## :books: Guia de instalação e execução
