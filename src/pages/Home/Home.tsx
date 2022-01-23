@@ -36,9 +36,9 @@ type FormData = {
 }
 const formSchema = yup.object().shape({
     name: yup.string().required('O campo nome é obrigátorio.')
-        .matches(/^[aA-zZ\s]+$/, "Já viu algum nome possuir numeros."),
+        .matches(/^[A-zÀ-ú\s]+$/, "Digite apenas seu nome."),
     profession: yup.string().required('O campo profissão é obrigátorio.')
-        .matches(/^[aA-zZ\s]+$/, "Digite apenas Letras."),
+        .matches(/^[A-zÀ-ú\s]+$/, "Digite apenas sua profisão."),
     ipaddress: yup.string().required('O campo ip é obrigátorio.'),
     cellphone: yup.string()
         .test("len", "Digite um telefone valido", (inputValue) => {
